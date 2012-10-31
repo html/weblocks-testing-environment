@@ -1,0 +1,3 @@
+[submodule "weblocks-quicklisp/local-projects/weblocks"]
+	path = weblocks-quicklisp/local-projects/weblocks
+	url = git://github.com/skypher/weblocks.git
