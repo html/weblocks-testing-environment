@@ -1,0 +1,270 @@
+/* @override http://common-lisp.net/project/lift/style.css */
+
+/* @group Stuff */
+
+pre { padding:5px; background-color:#e0e0e0;
+	overflow: auto;
+}
+
+body {
+	background: white;
+	margin: 2px;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.note {
+	border: 2px inset gray;
+	padding: 0.5em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+#navigation li {
+	display: inline;
+	border-right-style: dotted;
+	border-right-width: 1px;
+	border-left-style: dotted;
+	border-left-width: 1px;
+	border-collapse: collapse;
+	padding-right: 0.25em;
+	padding-left: 0.25em;
+	margin-right: 1em;
+}
+
+#navigation {
+	text-align: center;
+}
+
+#timestamp {
+	font-size: 80%;
+	text-align: right;
+}
+a.none { text-decoration: none; color:black }
+a.none:visited { text-decoration: none; color:black }
+a.none:active { text-decoration: none; color:black }
+a.none:hover { text-decoration: none; color:black }
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: underline; }
+a:hover { text-decoration: underline; }
+
+/* @end */
+
+/* @group header/footer */
+
+#header {
+		position:relative; /* Position is declared "relative" to gain control of stacking order (z-index). */
+		width:auto;
+		min-width:120px;
+	font-size: medium;
+	background-color: #ff9f07;
+	color: white;
+	border: solid #995f04 4px;
+	padding: 1mm 1mm 1mm 1em;
+}
+
+.header {
+		position:relative; /* Position is declared "relative" to gain control of stacking order (z-index). */
+		width:auto;
+		min-width:120px;
+	font-size: medium;
+	background-color: #ff9f07;
+	color: white;
+	border: solid #995f04 4px;
+	padding: 1mm 1mm 1mm 1em;
+}
+
+.footer {
+	font-size: small;
+	font-style: italic;
+	background-color: #ff9f07;
+     border-top: 2px solid;
+     border-bottom: 2px solid;
+	border-color:#002244;
+	padding-top: 2mm;
+	padding-bottom: 2mm;
+	float: left;
+	width: 100%;
+	height: 04mm;
+}
+
+#footer {	font-size: small;	font-style: italic;	background-color: #ff9f07;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+	border-color: #417b39;
+	padding-top: 2mm;
+	padding-bottom: 2mm;
+	float: left;
+	width: 100%;
+	height: 04mm;
+}
+
+.footer-text {
+	color: black;
+	float: right;
+    padding-top: 3em;
+	padding-bottom: 2em;
+	padding-right: 1em;
+	background: inherit;
+}
+
+.footer h3 {
+	padding-top: 10px;
+	padding-left: 0.5in;
+	padding-right: 0.5in;
+	margin-top: 0.2em;
+	margin-bottom: 0.6em;
+}
+
+.footer a:link {
+	font-weight:bold;
+	text-decoration:underline;
+	background: inherit;
+}
+
+.footer a:visited {
+	font-weight:bold; 
+	text-decoration:underline;
+	background: inherit;
+}
+
+.footer a:hover { 
+	font-weight:bold; 
+	color:#002244; 
+	text-decoration:underline;
+	background: inherit;
+}
+
+#footer #timestamp {
+	float: right;
+}
+
+#footer .copyright {
+	display: block;
+	padding-top: 0.1em;
+	margin-top: 0.1em;
+}
+
+
+
+/* @end */
+
+/* @group toc */
+
+.table-of-contents {
+	font-size: 90%;
+}
+
+.table-of-contents h1, h2, h3, h4, h5, h6, h7 {
+	font-size: inherit;
+}
+
+.table-of-contents h2 {
+	position: relative;
+	left: 2em;
+}
+
+.table-of-contents h3 {
+	position: relative;
+	left: 4em;
+}
+
+.table-of-contents h4 {
+	position: relative;
+	left: 6em;
+}
+
+.table-of-contents h5 {
+	position: relative;
+	left: 8px;
+}
+	
+/* @end */
+
+/* @group Nonsense */
+
+.logo {
+	float: right;
+	text-align: right;
+	right: 2em;
+}
+
+.nav {
+	padding-left: 1em;
+}
+
+.code-block {
+	font: 90% "Courier New", Courier, monospace;
+	padding-right: 2em;
+	padding-left: 2em;
+	overflow: auto;
+	color: #000000;
+	background: #f6ead6;
+	width: 90%;
+}
+
+pre {
+	font: 90% "Courier New", Courier, monospace;
+	color: #000000;
+	background: #f6ead6;
+	width: 90%;
+	overflow: auto;
+	border: 1px solid #995f04;
+	padding: 0.25em 0.5em;
+	margin-left: 2em;
+}
+
+.system-news  {
+	border-collapse: collapse;
+	vertical-align: top;
+	margin-bottom: 1em;
+}
+
+.system-news th {
+	font-weight: normal;
+	vertical-align: top;
+	width: 100px;
+	text-align: left;
+}
+
+.system-news td {
+	vertical-align: top;
+	padding-bottom: 0.4em;
+	text-align: left;
+}
+
+.odd-row {
+	background: #f4e9d7;
+}
+
+
+
+/* @end */
+
+/* @group ChangeLog */
+
+.changelog {
+	font-size: 75%;
+	padding: 1em 2em 2em;
+     vertical-align: top;
+	color: #686868;
+	background: inherit;
+}
+
+.changelog-author {
+	text-align: right;
+	color: #686868;
+	background: inherit;
+}
+
+.changelog-description {
+	padding-left: 2em;
+	color: #000000;
+	padding-bottom: 1em;
+	font-size: 120%;
+	padding-right: 2em;
+	background: inherit;
+}
+
+/* @end */
